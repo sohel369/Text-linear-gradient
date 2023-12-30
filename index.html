@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text linear gradient</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100%;
+            background: #031321;
+        }
+        h1{
+            text-transform: uppercase;
+            font-size: 40px;
+            background: linear-gradient(to right, #1b7bd0, #1eeb3d, #210cbd);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            box-shadow: 0 0 20px rgb(90, 244, 52);
+        }
+        h2{
+            display: none;
+            font-size: 30px;
+            color: greenyellow;
+            border: 20px groove darkred;
+            text-transform: uppercase;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 768px) {
+            h1{
+                border: 2px solid greenyellow;
+                padding: 10px;
+            }
+            h2{
+                display: block;            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>gradient</h1>
+    <h2>Nikhil roy + sohel rana</h2>
+
+
+</body>
+
+</html>
